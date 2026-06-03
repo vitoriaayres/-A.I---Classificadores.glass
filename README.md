@@ -334,10 +334,14 @@ Este estudo desenvolveu uma inteligência artificial que identifica tipos de vid
 - Uma restrição mapeada na base de dados é a ausência total de amostras da Classe 4, limitando o escopo preditivo às demais categorias. 
 - Dataset pequeno
 - Generalização limitada
+- Classes Mais Confundidas: As maiores taxas de erro ocorrem de maneira cruzada e sistêmica entre as fronteiras da Classe 1 e da Classe 2. 
+- Gargalo da Classe 3: O vidro pertencente ao "Tipo 3" é frequentemente classificado de forma errônea como pertencente às Classes 1 e 2, gerando um baixíssimo índice de Recall. 
+	- Causa Raiz: Esse fenômeno é justificado diretamente pelo desbalanceamento crítico mapeado na EDA. Como a máquina tem uma quantidade massiva de exemplos das classes 1 e 2 para estudar, ela herda um viés estatístico estrutural, tendendo a ignorar os padrões da classe minoritária (Tipo 3) nas zonas de alta sobreposição química. 
 - Classifica apenas os seguintes tipos de vidro: 
   - Janela (Flutuação)
   - Janela (Não-Flutuação)
-  - Veículo
+  - Veículo (Flutuação)
+  - Veículo (Não-Flutuação)
   - Recipiente
   - Farol
   - Mesa
