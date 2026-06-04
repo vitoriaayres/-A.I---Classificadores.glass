@@ -48,7 +48,7 @@ Este é um conjunto de dados de identificação de vidro da UCI. Contém 10 atri
 
 1. **Tipo 1**: Janela (Flutuação)
 2. **Tipo 2**: Janela (Não-Flutuação)
-3. **Tipo 3**: Veículo
+3. **Tipo 3**: Veículo (Flutuação)
 4. **Tipo 5**: Recipiente
 5. **Tipo 6**: Farol
 6. **Tipo 7**: Mesa
@@ -341,7 +341,6 @@ Este estudo desenvolveu uma inteligência artificial que identifica tipos de vid
   - Janela (Flutuação)
   - Janela (Não-Flutuação)
   - Veículo (Flutuação)
-  - Veículo (Não-Flutuação)
   - Recipiente
   - Farol
   - Mesa
