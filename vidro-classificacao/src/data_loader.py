@@ -63,7 +63,6 @@ class DataProcessor:
         X_train, X_temp, y_train, y_temp = train_test_split(
             self.X, self.y, 
             test_size=test_size, 
-            stratify=self.y, 
             random_state=random_state
         )
         
